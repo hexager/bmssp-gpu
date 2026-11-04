@@ -1,0 +1,10 @@
+Dataset     Algorithm          N    Median(ms)      Mean(ms)     Min(ms)     Max(ms)
+GRID500     cpu_delta         25       30.6968       30.7296     30.5587     31.4829
+GRID500     dijkstra          25       31.6547       31.6890     31.4204     32.1378
+GRID500     gpu_delta         25      442.2550      444.4063    438.1280    477.5770
+NY          cpu_delta         25       23.7082       23.7280     23.4596     24.4964
+NY          dijkstra          25       23.6248       23.6101     23.3493     23.9290
+NY          gpu_delta         25      278.2580      275.1086    264.8140    281.8640
+RMAT16      cpu_delta         25       10.5164       10.6397     10.1929     11.2254
+RMAT16      dijkstra          25       10.6738       10.6824     10.5171     11.1573
+RMAT16      gpu_delta         25       42.1256       41.9974     34.1483     53.9701

@@ -1,0 +1,10 @@
+{
+  "purpose": "Separate recovery of interrupted OpenMP experiment",
+  "base_commit": "503232b02c74948c61bdbe084179397bb1dc67f7",
+  "original_rows": 310,
+  "missing_rows": 68,
+  "original_raw_sha256": "b97f4b659b680e35f6c1dbb48e6b449669b18da441fd5ce7ea07d57ca6356707",
+  "original_metadata_sha256": "a7b535650d60203f5929355bacf5883261abb52316766111cd53ee3da06d9300",
+  "plan_sha256": "38b8a939cb41d4733c04cb7647f9d1aaf215d87cf31ecf31a2333c4409e1379b",
+  "warning": "Separate session; do not automatically merge with original performance evidence."
+}

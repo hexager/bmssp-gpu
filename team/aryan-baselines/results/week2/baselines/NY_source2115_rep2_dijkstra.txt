@@ -1,0 +1,11 @@
+================================
+CPU DIJKSTRA
+================================
+Graph      : data/USA-road-d.NY.gr
+Vertices   : 264346
+Edges      : 733846
+Source     : 2115
+Runtime    : 56.8494 ms
+Edges examined : 733846
+Successful relaxations : 299009
+================================

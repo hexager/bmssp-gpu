@@ -1,0 +1,11 @@
+================================
+CPU DIJKSTRA
+================================
+Graph      : data/grid500.gr
+Vertices   : 250000
+Edges      : 998000
+Source     : 1501
+Runtime    : 57.8811 ms
+Edges examined : 998000
+Successful relaxations : 329463
+================================

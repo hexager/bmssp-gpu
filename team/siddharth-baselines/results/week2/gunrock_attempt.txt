@@ -1,0 +1,51 @@
+OPTIONAL GUNROCK BASELINE ATTEMPT
+=================================
+
+Gunrock version:
+v1.2 checkout / release commit 5ee3df50c
+
+Target hardware:
+NVIDIA GeForce GT 1030
+Compute capability: 6.1
+
+CUDA Toolkit:
+11.8
+
+Initial host compiler:
+GCC/G++ 12.2
+
+Compatible host compiler tested:
+GCC/G++ 11.3
+
+Configuration:
+Gunrock was successfully configured specifically for SM 6.1:
+-gencode=arch=compute_61,code=sm_61
+-gencode=arch=compute_61,code=compute_61
+
+Build target:
+sssp
+
+Result:
+BUILD FAILED due to compatibility problems between the legacy
+Gunrock v1.2 dependency stack and the CUDA 11.8 Thrust/CUB stack.
+
+Initial issues:
+1. CUDA 11.8 rejected GCC 12 as an unsupported host compiler.
+2. This was addressed by switching to the already-installed GCC/G++ 11.3.
+
+Remaining issue:
+Gunrock v1.2 uses an older bundled CUB dependency, while CUDA 11.8
+ships a newer integrated Thrust/CUB stack.
+
+Compilation produced extensive CUB/Thrust incompatibility errors,
+including template/redefinition errors and CUB namespace/configuration
+errors.
+
+Decision:
+The optional Gunrock baseline was not pursued further because resolving
+the legacy dependency incompatibility would require invasive dependency
+or toolchain changes and could destabilize the validated CUDA experiment
+environment.
+
+The project's own GPU Delta-Stepping baseline remains available and
+correctness-validated.

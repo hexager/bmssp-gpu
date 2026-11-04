@@ -1,0 +1,11 @@
+algorithm,graph,vertices,edges,run,source,runtime_ms,edges_examined,successful_relaxations
+dijkstra,data/USA-road-d.NY.gr,264346,733846,1,1,80.896385,733846,299019
+dijkstra,data/USA-road-d.NY.gr,264346,733846,2,26435,100.210334,733846,298889
+dijkstra,data/USA-road-d.NY.gr,264346,733846,3,52870,97.821283,733846,298928
+dijkstra,data/USA-road-d.NY.gr,264346,733846,4,79304,100.670867,733846,299074
+dijkstra,data/USA-road-d.NY.gr,264346,733846,5,105739,91.717246,733846,298907
+dijkstra,data/USA-road-d.NY.gr,264346,733846,6,132174,92.745343,733846,299213
+dijkstra,data/USA-road-d.NY.gr,264346,733846,7,158608,68.337223,733846,298751
+dijkstra,data/USA-road-d.NY.gr,264346,733846,8,185043,88.099975,733846,299202
+dijkstra,data/USA-road-d.NY.gr,264346,733846,9,211477,76.769512,733846,298624
+dijkstra,data/USA-road-d.NY.gr,264346,733846,10,237912,62.748564,733846,297774

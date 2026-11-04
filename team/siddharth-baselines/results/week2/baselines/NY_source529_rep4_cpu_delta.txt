@@ -1,0 +1,19 @@
+Running Dijkstra reference...
+Running CPU Delta-Stepping...
+
+================================
+DELTA-STEPPING CHECK
+================================
+Graph       : data/USA-road-d.NY.gr
+Vertices    : 264346
+Edges       : 733846
+Source      : 529
+Delta       : 5000
+Dijkstra    : 23.0974 ms
+Delta CPU   : 23.7348 ms
+Buckets     : 292
+Edges examined : 813651
+Successful relaxations : 323889
+Mismatches  : 0
+Correctness : PASS
+================================

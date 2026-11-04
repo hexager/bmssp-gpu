@@ -1,0 +1,35 @@
+===== RMAT16 =====
+Source     : 1
+Edges examined : 514223
+Source     : 132
+Edges examined : 514223
+Source     : 263
+Edges examined : 514223
+Source     : 394
+Edges examined : 514223
+Source     : 525
+Edges examined : 514223
+
+===== GRID500 =====
+Source     : 1
+Edges examined : 998000
+Source     : 501
+Edges examined : 998000
+Source     : 1001
+Edges examined : 998000
+Source     : 1501
+Edges examined : 998000
+Source     : 2001
+Edges examined : 998000
+
+===== NY =====
+Source     : 1
+Edges examined : 733846
+Source     : 529
+Edges examined : 733846
+Source     : 1058
+Edges examined : 733846
+Source     : 1587
+Edges examined : 733846
+Source     : 2115
+Edges examined : 733846

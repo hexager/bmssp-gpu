@@ -1,0 +1,22 @@
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/rmat16.gr
+Vertices    : 65536
+Edges       : 524288
+Source      : 394
+Delta       : 16
+CPU Dijkstra: 10.4181 ms
+GPU total   : 79.8726 ms
+H2D/setup   : 41.9512 ms
+GPU section : 37.1396 ms
+D2H         : 0.511506 ms
+Iterations  : 13
+Edges examined : 3826100
+Successful relaxations : 64848
+Mismatches  : 0
+Correctness : PASS
+================================

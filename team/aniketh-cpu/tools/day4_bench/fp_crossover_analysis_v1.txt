@@ -1,0 +1,55 @@
+BMSSP FindPivots crossover analysis
+Reference: sequential fallback
+Times are single-session diagnostic measurements.
+Different modes may have different call workloads.
+A detected crossover is descriptive, not a validated speedup.
+
+========== GRAPH: ny ==========
+reference: builtin   (total FindPivots time 67.1 ms in 4081 calls)
+     work0 bin  calls ref share    builtin usserial_sync us       par4 us
+         [2,4)      4     22.3%          1.17          1.55          2.19
+         [4,8)      1      0.0%          1.88          1.94          8.26
+       [32,64)      1      0.0%          4.42          5.90         13.30
+      [64,128)     15      0.3%          9.96         16.76         17.03
+     [128,256)   4029     67.0%         11.05         18.91         26.46
+     [256,512)      1      0.0%         20.99         52.44         27.24
+    [512,1024)      3      0.4%         58.32        106.74         98.04
+   [1024,2048)     10      2.2%        133.11        259.75        264.90
+   [2048,4096)     17      7.9%        334.29        644.49        503.82
+
+serial_sync: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).
+
+par4: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).
+
+========== GRAPH: r18 ==========
+reference: builtin   (total FindPivots time 94.4 ms in 434 calls)
+     work0 bin  calls ref share    builtin usserial_sync us       par4 us
+         [1,2)      3      8.1%          1.90          1.13        166.40
+       [16,32)      1      0.0%          1.85          5.36         90.11
+       [32,64)      4      0.0%          3.64          5.52         43.63
+      [64,128)     13      0.1%          6.42         10.76        118.73
+     [128,256)    332      7.4%         21.68         39.57        145.99
+     [256,512)     25      0.7%         25.64         36.30        276.19
+  [8192,16384)     56     83.6%       1362.65       2023.60       6440.58
+
+serial_sync: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).
+
+par4: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).
+
+========== GRAPH: r20 ==========
+reference: builtin   (total FindPivots time 595.3 ms in 851 calls)
+     work0 bin  calls ref share    builtin usserial_sync us       par4 us
+         [2,4)      3     11.8%          2.97          0.92         75.25
+         [4,8)      1      0.0%          1.83          2.66          7.58
+        [8,16)      1      0.0%          2.53          3.38          8.96
+       [16,32)      3      0.0%          5.94          6.26         12.65
+       [32,64)      4      0.0%         12.17         12.72         23.76
+      [64,128)     13      0.0%         17.69         20.91         32.27
+     [128,256)     12      0.1%         41.11         40.47         53.81
+     [256,512)    731     11.3%         90.27        128.08        134.49
+    [512,1024)     27      0.5%        116.80        162.46        178.40
+ [32768,65536)     56     76.3%       7326.43      11256.00       8602.50
+
+serial_sync: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).
+
+par4: never faster than builtin in a sustained range of size classes (bins with >= 5 calls in both logs).

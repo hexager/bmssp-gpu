@@ -1,0 +1,6 @@
+# Week 2 frozen source vertices
+# DIMACS numbering (1-based)
+
+RMAT16 1 132 263 394 525
+GRID500 1 501 1001 1501 2001
+NY 1 529 1058 1587 2115

@@ -1,0 +1,4 @@
+dataset,dijkstra_relax,delta_relax,delta_over_dijkstra_relax,dijkstra_edges,delta_edges,dijkstra_ms,delta_ms,bmssp_relax
+RMAT16,65831,58300,0.886,514223,826313,20.67,34.49,PENDING
+GRID500,329459,325366,0.988,998000,1004446,52.81,76.81,PENDING
+NY,299009,323665,1.082,733846,813430,47.99,67.75,PENDING

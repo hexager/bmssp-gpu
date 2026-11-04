@@ -1,0 +1,22 @@
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/grid500.gr
+Vertices    : 250000
+Edges       : 998000
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 32.8833 ms
+GPU total   : 373.987 ms
+H2D/setup   : 45.0997 ms
+GPU section : 326.767 ms
+D2H         : 1.49171 ms
+Iterations  : 732
+Edges examined : 4821309
+Successful relaxations : 321557
+Mismatches  : 0
+Correctness : PASS
+================================

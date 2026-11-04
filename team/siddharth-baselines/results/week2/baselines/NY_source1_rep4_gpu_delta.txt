@@ -1,0 +1,22 @@
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/USA-road-d.NY.gr
+Vertices    : 264346
+Edges       : 733846
+Source      : 1
+Delta       : 5000
+CPU Dijkstra: 23.4858 ms
+GPU total   : 324.09 ms
+H2D/setup   : 43.8996 ms
+GPU section : 277.812 ms
+D2H         : 1.5833 ms
+Iterations  : 289
+Edges examined : 6858664
+Successful relaxations : 345262
+Mismatches  : 0
+Correctness : PASS
+================================

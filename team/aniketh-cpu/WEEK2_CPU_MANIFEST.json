@@ -1,0 +1,41 @@
+{
+  "base_commit": "503232b02c74948c61bdbe084179397bb1dc67f7",
+  "base_release": "cpu-v1.4",
+  "checkpoint": "BMSSP Week 2 CPU/OpenMP",
+  "correctness_note": "Distances matched across tested configurations. Randomized and multi-source Dijkstra comparisons were performed separately.",
+  "date": "2026-10-21",
+  "files": {
+    "tools/day4_bench/amdahl_bounds_v1.csv": "84d2601b682872bac19b5bc21f036cb500db2eee5f188e4696b10535cf8ed9e7",
+    "tools/day4_bench/cpu_stats_recomputed_v1.csv": "a1664c5e9df75781be4657f48690da84fac2b80957a7ffc9d017e8c3a5caedb4",
+    "tools/day4_bench/fp_crossover_analysis_v1.txt": "51ff6c254b351c9ce057ebb7bd39d322dc045e5108415d55e60f29d9ec22d94c",
+    "tools/day4_bench/graph_provenance_v2.txt": "95daeb503cc5432f2092a3e9fb86c63205c09cd7dc0a7d6537ee2bd9368dd476",
+    "tools/day4_bench/h1_strict_counts_v1.csv": "ca34e8e33e0c6f65eb71a880ba30f60ba9ddcff82b3c448d20649f6054d84717",
+    "tools/day4_bench/openmp_day3_recovery_v1/baseline_controls.csv": "b8a529dbe5c8be32b3359ec62456c28b8bb67d54d0d61121df1f5ae96fbed56f",
+    "tools/day4_bench/openmp_day3_recovery_v1/missing_plan.csv": "38b8a939cb41d4733c04cb7647f9d1aaf215d87cf31ecf31a2333c4409e1379b",
+    "tools/day4_bench/openmp_day3_recovery_v1/recovery_manifest.json": "d56d8dac3c961060fd2dd042b24567905d6634fe93b1bd47e75d150ae7600020",
+    "tools/day4_bench/openmp_day3_recovery_v1/recovery_timings.csv": "12f78cb8b51e0117eaef6e294f5fd4bd60096cb73d7083de8995121dcf26b694",
+    "tools/day4_bench/openmp_day3_recovery_v1/run_recovery.py": "36f698ce02ab27c43d3db19a28d289757c2b329355ea685576b13f38758f7379",
+    "tools/day4_bench/openmp_day3_recovery_v1/session_comparability_audit_v1.txt": "82f0217dfc75ccf2895a7cfd9d7094d48dbe250f8c438cd48b7d92f82e1b0cf1",
+    "tools/day4_bench/openmp_day3_session_summary_v1.csv": "d27c3d76003d5958865e5de1bed92b177dbbfd8c582c525bfeecd94ff0d7d92d",
+    "tools/day4_bench/openmp_day3_v1/metadata.json": "a7b535650d60203f5929355bacf5883261abb52316766111cd53ee3da06d9300",
+    "tools/day4_bench/openmp_day3_v1/raw_timings.csv": "b97f4b659b680e35f6c1dbb48e6b449669b18da441fd5ce7ea07d57ca6356707",
+    "tools/day4_bench/week2_final_cpu_research_report.md": "6a6e6a01b09c7bc25b07506ae5c953b813404719306c2eab09526cd0cc500747",
+    "week2_research_tools/amdahl_bounds.py": "dd7111ba160681f30602f8f2ce13532e766862060a0e5e0c718b4cb78b4f20f5",
+    "week2_research_tools/bench_openmp_matrix.py": "394021ca7f8aa80631c0a7f09cdcc7cb7fb7aa28855ede27a51b0549a9325c5b",
+    "week2_research_tools/bench_openmp_matrix_verified.py": "8238707108ca65aed7088e28a03b8f0aa6369dba7ec2e57394f9f7a11bf183d7",
+    "week2_research_tools/call_crossover.py": "cb9896bad643d4bab562881378d5448471864dbc8205a3f8d227b07b19dc4314",
+    "week2_research_tools/configs_day3.json": "a562cf4cebffc4c2cd39ed676f02187f764c26af6f12cad8b0a6c56ee9df1706",
+    "week2_research_tools/configs_day3_verified.json": "7bb43d444ad152e3ee916d2e6fa861477eb233e2f0a62a4f315461645e101e4e",
+    "week2_research_tools/fp_openmp_v3.cpp": "12de83cb9013569330610d5d6c0f2ee84f8967474fd368bd4fde09ad55586eb9"
+  },
+  "limitations": [
+    "No measured general OpenMP speedup",
+    "Cross-session timing stability not established",
+    "Substantial recovery baseline drift",
+    "No measured GPU acceleration",
+    "Formal race freedom not established"
+  ],
+  "performance_runs": 378,
+  "performance_sessions": 2,
+  "status": "experimental; not a new CPU release"
+}

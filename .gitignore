@@ -1,0 +1,13 @@
+bin/
+data/
+*.o
+paper/*.aux
+paper/*.log
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.out
+__pycache__/
+results/check/
+results/check_multi/
+results/bench/
+results/multi/

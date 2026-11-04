@@ -1,0 +1,34 @@
+./test_loader data/tiny.gr
+=============================
+CSR GRAPH LOADER TEST
+=============================
+
+Vertices : 4
+Edges    : 5
+Avg out-degree : 1.25
+
+row_offsets:
+0 2 3 5 5 
+
+col_indices:
+1 2 3 1 3 
+
+weights:
+4 1 1 2 5 
+
+CSR validation: PASS
+./test_dijkstra
+[PASS] tiny.gr source 1
+[PASS] tiny.gr source 3
+[PASS] test2.gr source 1
+
+ALL DIJKSTRA TESTS PASSED
+./test_delta
+[PASS] data/tiny.gr source=1 delta=1 | buckets=4 | edges=5
+[PASS] data/tiny.gr source=1 delta=2 | buckets=3 | edges=5
+[PASS] data/tiny.gr source=1 delta=4 | buckets=2 | edges=5
+[PASS] data/test2.gr source=1 delta=3 | buckets=4 | edges=9
+[PASS] data/grid10.gr source=1 delta=10 | buckets=35 | edges=360
+[PASS] data/rmat8.gr source=1 delta=10 | buckets=16 | edges=983
+
+ALL DELTA-STEPPING TESTS PASSED

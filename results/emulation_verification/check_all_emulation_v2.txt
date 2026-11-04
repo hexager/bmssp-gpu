@@ -1,0 +1,289 @@
+PASS USA-road-d.NY_s1359_t0_d1 calls_gpu=3962
+PASS nearfar_USA-road-d.NY_s1359
+PASS USA-road-d.NY_s259519_t0_d1 calls_gpu=4007
+PASS nearfar_USA-road-d.NY_s259519
+PASS USA-road-d.NY_s31381_t0_d1 calls_gpu=4055
+PASS nearfar_USA-road-d.NY_s31381
+PASS USA-road-d.NY_s118428_t0_d1 calls_gpu=4036
+PASS nearfar_USA-road-d.NY_s118428
+PASS USA-road-d.NY_s147545_t0_d1 calls_gpu=4051
+PASS nearfar_USA-road-d.NY_s147545
+PASS USA-road-d.NY_s1359_t4096_d1 calls_gpu=0
+PASS USA-road-d.NY_s1359_t4096_d0 calls_gpu=0
+PASS grid500_s222375_t0_d1 calls_gpu=3784
+PASS nearfar_grid500_s222375
+PASS grid500_s71763_t0_d1 calls_gpu=3832
+PASS nearfar_grid500_s71763
+PASS grid500_s232672_t0_d1 calls_gpu=3792
+PASS nearfar_grid500_s232672
+PASS grid500_s65018_t0_d1 calls_gpu=3776
+PASS nearfar_grid500_s65018
+PASS grid500_s163508_t0_d1 calls_gpu=3781
+PASS nearfar_grid500_s163508
+PASS grid500_s222375_t4096_d1 calls_gpu=0
+PASS grid500_s222375_t4096_d0 calls_gpu=0
+PASS rmat16_s59526_t0_d1 calls_gpu=149
+PASS nearfar_rmat16_s59526
+PASS rmat16_s34576_t0_d1 calls_gpu=149
+PASS nearfar_rmat16_s34576
+PASS rmat16_s37001_t0_d1 calls_gpu=149
+PASS nearfar_rmat16_s37001
+PASS rmat16_s6173_t0_d1 calls_gpu=149
+PASS nearfar_rmat16_s6173
+PASS rmat16_s1882_t0_d1 calls_gpu=149
+PASS nearfar_rmat16_s1882
+PASS rmat16_s59526_t4096_d1 calls_gpu=33
+PASS rmat16_s59526_t4096_d0 calls_gpu=33
+PASS rmat18_s10271_t0_d1 calls_gpu=183
+PASS nearfar_rmat18_s10271
+PASS rmat18_s260484_t0_d1 calls_gpu=183
+PASS nearfar_rmat18_s260484
+PASS rmat18_s150286_t0_d1 calls_gpu=183
+PASS nearfar_rmat18_s150286
+PASS rmat18_s51905_t0_d1 calls_gpu=183
+PASS nearfar_rmat18_s51905
+PASS rmat18_s107461_t0_d1 calls_gpu=183
+PASS nearfar_rmat18_s107461
+PASS rmat18_s10271_t4096_d1 calls_gpu=121
+PASS rmat18_s10271_t4096_d0 calls_gpu=121
+PASS rmat20_s136155_t0_d1 calls_gpu=306
+PASS nearfar_rmat20_s136155
+PASS rmat20_s726358_t0_d1 calls_gpu=305
+PASS nearfar_rmat20_s726358
+PASS rmat20_s951564_t0_d1 calls_gpu=305
+PASS nearfar_rmat20_s951564
+PASS rmat20_s633873_t0_d1 calls_gpu=305
+PASS nearfar_rmat20_s633873
+PASS rmat20_s561136_t0_d1 calls_gpu=306
+PASS nearfar_rmat20_s561136
+PASS rmat20_s136155_t4096_d1 calls_gpu=274
+PASS rmat20_s136155_t4096_d0 calls_gpu=274
+PASS grid_n1024_seed11_s1_t0_d1 calls_gpu=54
+PASS nearfar_grid_n1024_seed11_s1
+PASS grid_n1024_seed11_s341_t0_d1 calls_gpu=59
+PASS nearfar_grid_n1024_seed11_s341
+PASS grid_n1024_seed11_s682_t0_d1 calls_gpu=56
+PASS nearfar_grid_n1024_seed11_s682
+PASS grid_n1024_seed3_s1_t0_d1 calls_gpu=53
+PASS nearfar_grid_n1024_seed3_s1
+PASS grid_n1024_seed3_s341_t0_d1 calls_gpu=58
+PASS nearfar_grid_n1024_seed3_s341
+PASS grid_n1024_seed3_s682_t0_d1 calls_gpu=57
+PASS nearfar_grid_n1024_seed3_s682
+PASS grid_n1024_seed7_s1_t0_d1 calls_gpu=53
+PASS nearfar_grid_n1024_seed7_s1
+PASS grid_n1024_seed7_s341_t0_d1 calls_gpu=57
+PASS nearfar_grid_n1024_seed7_s341
+PASS grid_n1024_seed7_s682_t0_d1 calls_gpu=56
+PASS nearfar_grid_n1024_seed7_s682
+PASS grid_n256_seed11_s1_t0_d1 calls_gpu=28
+PASS nearfar_grid_n256_seed11_s1
+PASS grid_n256_seed11_s85_t0_d1 calls_gpu=29
+PASS nearfar_grid_n256_seed11_s85
+PASS grid_n256_seed11_s170_t0_d1 calls_gpu=30
+PASS nearfar_grid_n256_seed11_s170
+PASS grid_n256_seed3_s1_t0_d1 calls_gpu=27
+PASS nearfar_grid_n256_seed3_s1
+PASS grid_n256_seed3_s85_t0_d1 calls_gpu=28
+PASS nearfar_grid_n256_seed3_s85
+PASS grid_n256_seed3_s170_t0_d1 calls_gpu=29
+PASS nearfar_grid_n256_seed3_s170
+PASS grid_n256_seed7_s1_t0_d1 calls_gpu=27
+PASS nearfar_grid_n256_seed7_s1
+PASS grid_n256_seed7_s85_t0_d1 calls_gpu=30
+PASS nearfar_grid_n256_seed7_s85
+PASS grid_n256_seed7_s170_t0_d1 calls_gpu=31
+PASS nearfar_grid_n256_seed7_s170
+PASS grid_n4096_seed11_s1_t0_d1 calls_gpu=100
+PASS nearfar_grid_n4096_seed11_s1
+PASS grid_n4096_seed11_s1365_t0_d1 calls_gpu=111
+PASS nearfar_grid_n4096_seed11_s1365
+PASS grid_n4096_seed11_s2730_t0_d1 calls_gpu=113
+PASS nearfar_grid_n4096_seed11_s2730
+PASS grid_n4096_seed3_s1_t0_d1 calls_gpu=105
+PASS nearfar_grid_n4096_seed3_s1
+PASS grid_n4096_seed3_s1365_t0_d1 calls_gpu=112
+PASS nearfar_grid_n4096_seed3_s1365
+PASS grid_n4096_seed3_s2730_t0_d1 calls_gpu=112
+PASS nearfar_grid_n4096_seed3_s2730
+PASS grid_n4096_seed7_s1_t0_d1 calls_gpu=104
+PASS nearfar_grid_n4096_seed7_s1
+PASS grid_n4096_seed7_s1365_t0_d1 calls_gpu=113
+PASS nearfar_grid_n4096_seed7_s1365
+PASS grid_n4096_seed7_s2730_t0_d1 calls_gpu=114
+PASS nearfar_grid_n4096_seed7_s2730
+PASS random_1_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_1_s1
+PASS random_1_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_1_s33
+PASS random_1_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_1_s66
+PASS random_10_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_10_s1
+PASS random_10_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_10_s33
+PASS random_10_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_10_s66
+PASS random_11_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_11_s1
+PASS random_11_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_11_s33
+PASS random_11_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_11_s66
+PASS random_12_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_12_s1
+PASS random_12_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_12_s33
+PASS random_12_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_12_s66
+PASS random_13_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_13_s1
+PASS random_13_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_13_s33
+PASS random_13_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_13_s66
+PASS random_14_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_14_s1
+PASS random_14_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_14_s33
+PASS random_14_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_14_s66
+PASS random_15_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_15_s1
+PASS random_15_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_15_s33
+PASS random_15_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_15_s66
+PASS random_16_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_16_s1
+PASS random_16_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_16_s33
+PASS random_16_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_16_s66
+PASS random_17_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_17_s1
+PASS random_17_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_17_s33
+PASS random_17_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_17_s66
+PASS random_18_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_18_s1
+PASS random_18_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_18_s33
+PASS random_18_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_18_s66
+PASS random_19_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_19_s1
+PASS random_19_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_19_s33
+PASS random_19_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_19_s66
+PASS random_2_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_2_s1
+PASS random_2_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_2_s33
+PASS random_2_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_2_s66
+PASS random_20_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_20_s1
+PASS random_20_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_20_s33
+PASS random_20_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_20_s66
+PASS random_3_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_3_s1
+PASS random_3_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_3_s33
+PASS random_3_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_3_s66
+PASS random_4_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_4_s1
+PASS random_4_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_4_s33
+PASS random_4_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_4_s66
+PASS random_5_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_5_s1
+PASS random_5_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_5_s33
+PASS random_5_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_5_s66
+PASS random_6_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_6_s1
+PASS random_6_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_6_s33
+PASS random_6_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_6_s66
+PASS random_7_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_7_s1
+PASS random_7_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_7_s33
+PASS random_7_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_7_s66
+PASS random_8_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_8_s1
+PASS random_8_s33_t0_d1 calls_gpu=3
+PASS nearfar_random_8_s33
+PASS random_8_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_8_s66
+PASS random_9_s1_t0_d1 calls_gpu=16
+PASS nearfar_random_9_s1
+PASS random_9_s33_t0_d1 calls_gpu=16
+PASS nearfar_random_9_s33
+PASS random_9_s66_t0_d1 calls_gpu=16
+PASS nearfar_random_9_s66
+PASS random_n1024_seed11_s1_t0_d1 calls_gpu=47
+PASS nearfar_random_n1024_seed11_s1
+PASS random_n1024_seed11_s341_t0_d1 calls_gpu=44
+PASS nearfar_random_n1024_seed11_s341
+PASS random_n1024_seed11_s682_t0_d1 calls_gpu=44
+PASS nearfar_random_n1024_seed11_s682
+PASS random_n1024_seed3_s1_t0_d1 calls_gpu=45
+PASS nearfar_random_n1024_seed3_s1
+PASS random_n1024_seed3_s341_t0_d1 calls_gpu=46
+PASS nearfar_random_n1024_seed3_s341
+PASS random_n1024_seed3_s682_t0_d1 calls_gpu=47
+PASS nearfar_random_n1024_seed3_s682
+PASS random_n1024_seed7_s1_t0_d1 calls_gpu=47
+PASS nearfar_random_n1024_seed7_s1
+PASS random_n1024_seed7_s341_t0_d1 calls_gpu=47
+PASS nearfar_random_n1024_seed7_s341
+PASS random_n1024_seed7_s682_t0_d1 calls_gpu=46
+PASS nearfar_random_n1024_seed7_s682
+PASS random_n256_seed11_s1_t0_d1 calls_gpu=23
+PASS nearfar_random_n256_seed11_s1
+PASS random_n256_seed11_s85_t0_d1 calls_gpu=27
+PASS nearfar_random_n256_seed11_s85
+PASS random_n256_seed11_s170_t0_d1 calls_gpu=22
+PASS nearfar_random_n256_seed11_s170
+PASS random_n256_seed3_s1_t0_d1 calls_gpu=26
+PASS nearfar_random_n256_seed3_s1
+PASS random_n256_seed3_s85_t0_d1 calls_gpu=27
+PASS nearfar_random_n256_seed3_s85
+PASS random_n256_seed3_s170_t0_d1 calls_gpu=26
+PASS nearfar_random_n256_seed3_s170
+PASS random_n256_seed7_s1_t0_d1 calls_gpu=23
+PASS nearfar_random_n256_seed7_s1
+PASS random_n256_seed7_s85_t0_d1 calls_gpu=24
+PASS nearfar_random_n256_seed7_s85
+PASS random_n256_seed7_s170_t0_d1 calls_gpu=25
+PASS nearfar_random_n256_seed7_s170
+PASS random_n4096_seed11_s1_t0_d1 calls_gpu=92
+PASS nearfar_random_n4096_seed11_s1
+PASS random_n4096_seed11_s1365_t0_d1 calls_gpu=93
+PASS nearfar_random_n4096_seed11_s1365
+PASS random_n4096_seed11_s2730_t0_d1 calls_gpu=91
+PASS nearfar_random_n4096_seed11_s2730
+PASS random_n4096_seed3_s1_t0_d1 calls_gpu=91
+PASS nearfar_random_n4096_seed3_s1
+PASS random_n4096_seed3_s1365_t0_d1 calls_gpu=89
+PASS nearfar_random_n4096_seed3_s1365
+PASS random_n4096_seed3_s2730_t0_d1 calls_gpu=93
+PASS nearfar_random_n4096_seed3_s2730
+PASS random_n4096_seed7_s1_t0_d1 calls_gpu=92
+PASS nearfar_random_n4096_seed7_s1
+PASS random_n4096_seed7_s1365_t0_d1 calls_gpu=90
+PASS nearfar_random_n4096_seed7_s1365
+PASS random_n4096_seed7_s2730_t0_d1 calls_gpu=92
+PASS nearfar_random_n4096_seed7_s2730
+checked runs: 288, result: ALL PASS

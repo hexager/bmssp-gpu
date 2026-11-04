@@ -1,0 +1,2662 @@
+GPU DELTA-STEPPING FUZZ TEST
+============================
+Generated seed=1 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.01238 ms
+GPU total   : 47.1599 ms
+H2D/setup   : 42.8738 ms
+GPU section : 4.20994 ms
+D2H         : 0.01484 ms
+Iterations  : 48
+Edges examined : 673
+Successful relaxations : 144
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.012319 ms
+GPU total   : 41.246 ms
+H2D/setup   : 38.761 ms
+GPU section : 2.41173 ms
+D2H         : 0.01448 ms
+Iterations  : 32
+Edges examined : 779
+Successful relaxations : 144
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.01257 ms
+GPU total   : 40.3415 ms
+H2D/setup   : 38.5618 ms
+GPU section : 1.70687 ms
+D2H         : 0.014191 ms
+Iterations  : 18
+Edges examined : 955
+Successful relaxations : 138
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.012618 ms
+GPU total   : 41.2918 ms
+H2D/setup   : 40.0216 ms
+GPU section : 1.19761 ms
+D2H         : 0.014483 ms
+Iterations  : 11
+Edges examined : 1262
+Successful relaxations : 135
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.012372 ms
+GPU total   : 39.069 ms
+H2D/setup   : 37.9586 ms
+GPU section : 1.03882 ms
+D2H         : 0.014808 ms
+Iterations  : 7
+Edges examined : 1867
+Successful relaxations : 130
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_1.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.013925 ms
+GPU total   : 47.4559 ms
+H2D/setup   : 46.5497 ms
+GPU section : 0.834863 ms
+D2H         : 0.014765 ms
+Iterations  : 4
+Edges examined : 2624
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=2 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.014002 ms
+GPU total   : 44.1864 ms
+H2D/setup   : 40.8864 ms
+GPU section : 3.22374 ms
+D2H         : 0.014791 ms
+Iterations  : 42
+Edges examined : 670
+Successful relaxations : 166
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014504 ms
+GPU total   : 41.9743 ms
+H2D/setup   : 39.4394 ms
+GPU section : 2.46049 ms
+D2H         : 0.014529 ms
+Iterations  : 31
+Edges examined : 766
+Successful relaxations : 167
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.014379 ms
+GPU total   : 40.5505 ms
+H2D/setup   : 38.7699 ms
+GPU section : 1.70932 ms
+D2H         : 0.014272 ms
+Iterations  : 20
+Edges examined : 1021
+Successful relaxations : 166
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.015618 ms
+GPU total   : 40.4249 ms
+H2D/setup   : 39.0984 ms
+GPU section : 1.25534 ms
+D2H         : 0.01487 ms
+Iterations  : 11
+Edges examined : 1390
+Successful relaxations : 161
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.014114 ms
+GPU total   : 39.2923 ms
+H2D/setup   : 38.2188 ms
+GPU section : 1.00191 ms
+D2H         : 0.014663 ms
+Iterations  : 6
+Edges examined : 1820
+Successful relaxations : 156
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_2.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.014859 ms
+GPU total   : 42.9704 ms
+H2D/setup   : 42.1033 ms
+GPU section : 0.795439 ms
+D2H         : 0.014439 ms
+Iterations  : 3
+Edges examined : 2118
+Successful relaxations : 169
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=3 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013296 ms
+GPU total   : 43.3398 ms
+H2D/setup   : 39.696 ms
+GPU section : 3.56995 ms
+D2H         : 0.01482 ms
+Iterations  : 47
+Edges examined : 671
+Successful relaxations : 150
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.012746 ms
+GPU total   : 41.394 ms
+H2D/setup   : 38.7301 ms
+GPU section : 2.59199 ms
+D2H         : 0.014851 ms
+Iterations  : 31
+Edges examined : 826
+Successful relaxations : 150
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.018417 ms
+GPU total   : 44.0036 ms
+H2D/setup   : 42.246 ms
+GPU section : 1.68552 ms
+D2H         : 0.014405 ms
+Iterations  : 19
+Edges examined : 1187
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.022538 ms
+GPU total   : 41.6379 ms
+H2D/setup   : 40.3328 ms
+GPU section : 1.23371 ms
+D2H         : 0.014429 ms
+Iterations  : 11
+Edges examined : 1450
+Successful relaxations : 141
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.012736 ms
+GPU total   : 41.3907 ms
+H2D/setup   : 40.3116 ms
+GPU section : 1.00754 ms
+D2H         : 0.014914 ms
+Iterations  : 6
+Edges examined : 2002
+Successful relaxations : 138
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_3.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.014724 ms
+GPU total   : 42.4942 ms
+H2D/setup   : 41.7158 ms
+GPU section : 0.706551 ms
+D2H         : 0.014826 ms
+Iterations  : 3
+Edges examined : 2457
+Successful relaxations : 158
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=4 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.014871 ms
+GPU total   : 46.1721 ms
+H2D/setup   : 42.0178 ms
+GPU section : 4.08057 ms
+D2H         : 0.014448 ms
+Iterations  : 43
+Edges examined : 826
+Successful relaxations : 153
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013902 ms
+GPU total   : 40.2963 ms
+H2D/setup   : 37.5378 ms
+GPU section : 2.68576 ms
+D2H         : 0.014498 ms
+Iterations  : 29
+Edges examined : 991
+Successful relaxations : 158
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013671 ms
+GPU total   : 39.8912 ms
+H2D/setup   : 38.016 ms
+GPU section : 1.80353 ms
+D2H         : 0.014525 ms
+Iterations  : 18
+Edges examined : 1223
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.01374 ms
+GPU total   : 39.78 ms
+H2D/setup   : 38.3367 ms
+GPU section : 1.3694 ms
+D2H         : 0.01485 ms
+Iterations  : 11
+Edges examined : 1551
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.013329 ms
+GPU total   : 39.2856 ms
+H2D/setup   : 38.1912 ms
+GPU section : 1.0245 ms
+D2H         : 0.014508 ms
+Iterations  : 6
+Edges examined : 1947
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_4.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.015399 ms
+GPU total   : 41.0117 ms
+H2D/setup   : 40.1497 ms
+GPU section : 0.790671 ms
+D2H         : 0.015122 ms
+Iterations  : 3
+Edges examined : 2699
+Successful relaxations : 162
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=5 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.014142 ms
+GPU total   : 45.3633 ms
+H2D/setup   : 41.1951 ms
+GPU section : 4.09439 ms
+D2H         : 0.014318 ms
+Iterations  : 46
+Edges examined : 728
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014301 ms
+GPU total   : 40.9607 ms
+H2D/setup   : 38.1973 ms
+GPU section : 2.68824 ms
+D2H         : 0.014517 ms
+Iterations  : 31
+Edges examined : 885
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013725 ms
+GPU total   : 39.5126 ms
+H2D/setup   : 37.4428 ms
+GPU section : 1.99864 ms
+D2H         : 0.014674 ms
+Iterations  : 19
+Edges examined : 1176
+Successful relaxations : 156
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013761 ms
+GPU total   : 39.3337 ms
+H2D/setup   : 38.0601 ms
+GPU section : 1.20256 ms
+D2H         : 0.014686 ms
+Iterations  : 12
+Edges examined : 1321
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.013513 ms
+GPU total   : 39.6863 ms
+H2D/setup   : 38.4633 ms
+GPU section : 1.15161 ms
+D2H         : 0.014609 ms
+Iterations  : 8
+Edges examined : 2110
+Successful relaxations : 147
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_5.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.013617 ms
+GPU total   : 38.8068 ms
+H2D/setup   : 37.9826 ms
+GPU section : 0.752053 ms
+D2H         : 0.014515 ms
+Iterations  : 4
+Edges examined : 2771
+Successful relaxations : 163
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=6 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013773 ms
+GPU total   : 42.8978 ms
+H2D/setup   : 39.0657 ms
+GPU section : 3.75776 ms
+D2H         : 0.014652 ms
+Iterations  : 47
+Edges examined : 721
+Successful relaxations : 160
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013998 ms
+GPU total   : 41.6989 ms
+H2D/setup   : 39.3705 ms
+GPU section : 2.25293 ms
+D2H         : 0.014434 ms
+Iterations  : 29
+Edges examined : 784
+Successful relaxations : 159
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.014194 ms
+GPU total   : 45.4987 ms
+H2D/setup   : 43.8263 ms
+GPU section : 1.59929 ms
+D2H         : 0.014718 ms
+Iterations  : 17
+Edges examined : 1001
+Successful relaxations : 153
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.019128 ms
+GPU total   : 45.196 ms
+H2D/setup   : 43.9835 ms
+GPU section : 1.13924 ms
+D2H         : 0.015149 ms
+Iterations  : 10
+Edges examined : 1382
+Successful relaxations : 143
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.016058 ms
+GPU total   : 38.6323 ms
+H2D/setup   : 37.6525 ms
+GPU section : 0.907207 ms
+D2H         : 0.014423 ms
+Iterations  : 5
+Edges examined : 1828
+Successful relaxations : 139
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_6.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.01385 ms
+GPU total   : 38.673 ms
+H2D/setup   : 37.9223 ms
+GPU section : 0.679257 ms
+D2H         : 0.01429 ms
+Iterations  : 3
+Edges examined : 2146
+Successful relaxations : 137
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=7 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013908 ms
+GPU total   : 42.5941 ms
+H2D/setup   : 39.8114 ms
+GPU section : 2.70693 ms
+D2H         : 0.014541 ms
+Iterations  : 44
+Edges examined : 657
+Successful relaxations : 157
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014147 ms
+GPU total   : 40.0712 ms
+H2D/setup   : 38.0795 ms
+GPU section : 1.91899 ms
+D2H         : 0.014261 ms
+Iterations  : 26
+Edges examined : 782
+Successful relaxations : 157
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013818 ms
+GPU total   : 40.0267 ms
+H2D/setup   : 38.5015 ms
+GPU section : 1.45301 ms
+D2H         : 0.014749 ms
+Iterations  : 15
+Edges examined : 1072
+Successful relaxations : 163
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013728 ms
+GPU total   : 39.8019 ms
+H2D/setup   : 38.5694 ms
+GPU section : 1.15786 ms
+D2H         : 0.014825 ms
+Iterations  : 8
+Edges examined : 1684
+Successful relaxations : 159
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.016207 ms
+GPU total   : 40.3923 ms
+H2D/setup   : 39.5407 ms
+GPU section : 0.779967 ms
+D2H         : 0.014498 ms
+Iterations  : 4
+Edges examined : 2099
+Successful relaxations : 151
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_7.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.01384 ms
+GPU total   : 40.236 ms
+H2D/setup   : 39.5938 ms
+GPU section : 0.537038 ms
+D2H         : 0.018895 ms
+Iterations  : 2
+Edges examined : 2278
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=8 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013703 ms
+GPU total   : 42.4344 ms
+H2D/setup   : 38.8534 ms
+GPU section : 3.50654 ms
+D2H         : 0.014447 ms
+Iterations  : 48
+Edges examined : 629
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013225 ms
+GPU total   : 41.4131 ms
+H2D/setup   : 38.7533 ms
+GPU section : 2.58785 ms
+D2H         : 0.014568 ms
+Iterations  : 31
+Edges examined : 834
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013213 ms
+GPU total   : 40.5643 ms
+H2D/setup   : 38.7658 ms
+GPU section : 1.72444 ms
+D2H         : 0.01471 ms
+Iterations  : 19
+Edges examined : 1029
+Successful relaxations : 156
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013745 ms
+GPU total   : 43.8409 ms
+H2D/setup   : 42.4608 ms
+GPU section : 1.30414 ms
+D2H         : 0.014707 ms
+Iterations  : 11
+Edges examined : 1400
+Successful relaxations : 153
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.016878 ms
+GPU total   : 39.6136 ms
+H2D/setup   : 38.61 ms
+GPU section : 0.930871 ms
+D2H         : 0.014572 ms
+Iterations  : 6
+Edges examined : 1806
+Successful relaxations : 147
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_8.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.013514 ms
+GPU total   : 39.2466 ms
+H2D/setup   : 38.3681 ms
+GPU section : 0.808036 ms
+D2H         : 0.014589 ms
+Iterations  : 3
+Edges examined : 2514
+Successful relaxations : 162
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=9 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012811 ms
+GPU total   : 42.5332 ms
+H2D/setup   : 39.4588 ms
+GPU section : 3.00302 ms
+D2H         : 0.014505 ms
+Iterations  : 43
+Edges examined : 646
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013903 ms
+GPU total   : 45.0527 ms
+H2D/setup   : 42.7148 ms
+GPU section : 2.26527 ms
+D2H         : 0.014825 ms
+Iterations  : 29
+Edges examined : 814
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.017023 ms
+GPU total   : 44.3696 ms
+H2D/setup   : 42.7006 ms
+GPU section : 1.59628 ms
+D2H         : 0.014621 ms
+Iterations  : 18
+Edges examined : 1000
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.01393 ms
+GPU total   : 40.151 ms
+H2D/setup   : 38.9147 ms
+GPU section : 1.16287 ms
+D2H         : 0.01437 ms
+Iterations  : 10
+Edges examined : 1416
+Successful relaxations : 144
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.014267 ms
+GPU total   : 39.7604 ms
+H2D/setup   : 38.6733 ms
+GPU section : 1.01509 ms
+D2H         : 0.014774 ms
+Iterations  : 5
+Edges examined : 2174
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_9.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.015487 ms
+GPU total   : 42.9632 ms
+H2D/setup   : 42.1962 ms
+GPU section : 0.695028 ms
+D2H         : 0.014838 ms
+Iterations  : 3
+Edges examined : 2657
+Successful relaxations : 159
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=10 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012672 ms
+GPU total   : 43.6115 ms
+H2D/setup   : 39.8475 ms
+GPU section : 3.69036 ms
+D2H         : 0.01484 ms
+Iterations  : 51
+Edges examined : 652
+Successful relaxations : 147
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.01221 ms
+GPU total   : 41.3357 ms
+H2D/setup   : 38.818 ms
+GPU section : 2.44416 ms
+D2H         : 0.014642 ms
+Iterations  : 34
+Edges examined : 806
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013509 ms
+GPU total   : 40.0865 ms
+H2D/setup   : 38.1339 ms
+GPU section : 1.88032 ms
+D2H         : 0.014394 ms
+Iterations  : 22
+Edges examined : 1031
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013007 ms
+GPU total   : 39.8604 ms
+H2D/setup   : 38.6186 ms
+GPU section : 1.16618 ms
+D2H         : 0.014677 ms
+Iterations  : 12
+Edges examined : 1376
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.013011 ms
+GPU total   : 39.0026 ms
+H2D/setup   : 37.8585 ms
+GPU section : 1.07152 ms
+D2H         : 0.014825 ms
+Iterations  : 6
+Edges examined : 2238
+Successful relaxations : 130
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_10.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.012909 ms
+GPU total   : 42.4219 ms
+H2D/setup   : 41.5126 ms
+GPU section : 0.83727 ms
+D2H         : 0.014402 ms
+Iterations  : 3
+Edges examined : 2925
+Successful relaxations : 151
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=11 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.014023 ms
+GPU total   : 43.9109 ms
+H2D/setup   : 40.4036 ms
+GPU section : 3.42137 ms
+D2H         : 0.014861 ms
+Iterations  : 45
+Edges examined : 713
+Successful relaxations : 158
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014874 ms
+GPU total   : 41.7865 ms
+H2D/setup   : 39.2609 ms
+GPU section : 2.45173 ms
+D2H         : 0.01453 ms
+Iterations  : 29
+Edges examined : 959
+Successful relaxations : 158
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013883 ms
+GPU total   : 42.8305 ms
+H2D/setup   : 41.0145 ms
+GPU section : 1.74453 ms
+D2H         : 0.014694 ms
+Iterations  : 18
+Edges examined : 1136
+Successful relaxations : 157
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.01509 ms
+GPU total   : 41.5531 ms
+H2D/setup   : 39.7561 ms
+GPU section : 1.72309 ms
+D2H         : 0.015298 ms
+Iterations  : 10
+Edges examined : 1509
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.020611 ms
+GPU total   : 43.1121 ms
+H2D/setup   : 42.166 ms
+GPU section : 0.873185 ms
+D2H         : 0.014833 ms
+Iterations  : 5
+Edges examined : 1812
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_11.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.014791 ms
+GPU total   : 40.3995 ms
+H2D/setup   : 39.5016 ms
+GPU section : 0.82711 ms
+D2H         : 0.014979 ms
+Iterations  : 3
+Edges examined : 2748
+Successful relaxations : 157
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=12 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.01284 ms
+GPU total   : 44.1088 ms
+H2D/setup   : 40.7036 ms
+GPU section : 3.33197 ms
+D2H         : 0.014588 ms
+Iterations  : 45
+Edges examined : 705
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013057 ms
+GPU total   : 43.8278 ms
+H2D/setup   : 41.2868 ms
+GPU section : 2.46761 ms
+D2H         : 0.014641 ms
+Iterations  : 29
+Edges examined : 901
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.01342 ms
+GPU total   : 44.847 ms
+H2D/setup   : 43.0627 ms
+GPU section : 1.70266 ms
+D2H         : 0.015433 ms
+Iterations  : 16
+Edges examined : 1122
+Successful relaxations : 148
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.018308 ms
+GPU total   : 41.2821 ms
+H2D/setup   : 39.8016 ms
+GPU section : 1.38882 ms
+D2H         : 0.014859 ms
+Iterations  : 9
+Edges examined : 1568
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.012898 ms
+GPU total   : 41.4913 ms
+H2D/setup   : 40.5812 ms
+GPU section : 0.835539 ms
+D2H         : 0.014752 ms
+Iterations  : 5
+Edges examined : 1803
+Successful relaxations : 148
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_12.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.01259 ms
+GPU total   : 40.0293 ms
+H2D/setup   : 39.345 ms
+GPU section : 0.609246 ms
+D2H         : 0.014633 ms
+Iterations  : 3
+Edges examined : 2057
+Successful relaxations : 155
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=13 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012579 ms
+GPU total   : 46.5979 ms
+H2D/setup   : 43.0797 ms
+GPU section : 3.44245 ms
+D2H         : 0.014498 ms
+Iterations  : 46
+Edges examined : 615
+Successful relaxations : 142
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014387 ms
+GPU total   : 46.2537 ms
+H2D/setup   : 42.931 ms
+GPU section : 3.24318 ms
+D2H         : 0.014539 ms
+Iterations  : 31
+Edges examined : 661
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.014019 ms
+GPU total   : 42.6962 ms
+H2D/setup   : 40.8997 ms
+GPU section : 1.72124 ms
+D2H         : 0.014666 ms
+Iterations  : 19
+Edges examined : 1048
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.014389 ms
+GPU total   : 43.7492 ms
+H2D/setup   : 42.3773 ms
+GPU section : 1.28283 ms
+D2H         : 0.014801 ms
+Iterations  : 12
+Edges examined : 1369
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.012212 ms
+GPU total   : 40.4627 ms
+H2D/setup   : 39.4596 ms
+GPU section : 0.930892 ms
+D2H         : 0.014595 ms
+Iterations  : 6
+Edges examined : 1969
+Successful relaxations : 140
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_13.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.012798 ms
+GPU total   : 39.8617 ms
+H2D/setup   : 38.947 ms
+GPU section : 0.841872 ms
+D2H         : 0.014571 ms
+Iterations  : 3
+Edges examined : 2455
+Successful relaxations : 161
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=14 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013814 ms
+GPU total   : 43.6935 ms
+H2D/setup   : 39.6127 ms
+GPU section : 4.00618 ms
+D2H         : 0.014612 ms
+Iterations  : 46
+Edges examined : 658
+Successful relaxations : 151
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013704 ms
+GPU total   : 40.4678 ms
+H2D/setup   : 38.1016 ms
+GPU section : 2.29215 ms
+D2H         : 0.01472 ms
+Iterations  : 29
+Edges examined : 794
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013757 ms
+GPU total   : 41.5945 ms
+H2D/setup   : 39.8197 ms
+GPU section : 1.69803 ms
+D2H         : 0.015141 ms
+Iterations  : 18
+Edges examined : 1209
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.015164 ms
+GPU total   : 41.2237 ms
+H2D/setup   : 39.9303 ms
+GPU section : 1.2193 ms
+D2H         : 0.014597 ms
+Iterations  : 11
+Edges examined : 1374
+Successful relaxations : 150
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.013846 ms
+GPU total   : 41.3547 ms
+H2D/setup   : 39.2535 ms
+GPU section : 2.02642 ms
+D2H         : 0.014457 ms
+Iterations  : 6
+Edges examined : 2195
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_14.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.018673 ms
+GPU total   : 45.2469 ms
+H2D/setup   : 44.4026 ms
+GPU section : 0.77123 ms
+D2H         : 0.014906 ms
+Iterations  : 3
+Edges examined : 2820
+Successful relaxations : 171
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=15 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012873 ms
+GPU total   : 43.5801 ms
+H2D/setup   : 39.6922 ms
+GPU section : 3.81142 ms
+D2H         : 0.014833 ms
+Iterations  : 48
+Edges examined : 684
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.014965 ms
+GPU total   : 41.6014 ms
+H2D/setup   : 39.3194 ms
+GPU section : 2.20465 ms
+D2H         : 0.014401 ms
+Iterations  : 30
+Edges examined : 804
+Successful relaxations : 144
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013125 ms
+GPU total   : 40.6607 ms
+H2D/setup   : 38.8759 ms
+GPU section : 1.71193 ms
+D2H         : 0.014764 ms
+Iterations  : 17
+Edges examined : 1054
+Successful relaxations : 141
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013136 ms
+GPU total   : 40.0884 ms
+H2D/setup   : 38.7868 ms
+GPU section : 1.22787 ms
+D2H         : 0.014575 ms
+Iterations  : 10
+Edges examined : 1361
+Successful relaxations : 140
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.016292 ms
+GPU total   : 40.8766 ms
+H2D/setup   : 39.9432 ms
+GPU section : 0.86344 ms
+D2H         : 0.014589 ms
+Iterations  : 5
+Edges examined : 1607
+Successful relaxations : 133
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_15.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.012348 ms
+GPU total   : 39.5477 ms
+H2D/setup   : 38.8182 ms
+GPU section : 0.652957 ms
+D2H         : 0.014811 ms
+Iterations  : 3
+Edges examined : 2400
+Successful relaxations : 156
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=16 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012693 ms
+GPU total   : 45.1546 ms
+H2D/setup   : 41.5858 ms
+GPU section : 3.49216 ms
+D2H         : 0.014505 ms
+Iterations  : 50
+Edges examined : 708
+Successful relaxations : 144
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.012616 ms
+GPU total   : 47.2309 ms
+H2D/setup   : 44.8292 ms
+GPU section : 2.3237 ms
+D2H         : 0.014483 ms
+Iterations  : 34
+Edges examined : 862
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013761 ms
+GPU total   : 42.0239 ms
+H2D/setup   : 40.3591 ms
+GPU section : 1.5875 ms
+D2H         : 0.014877 ms
+Iterations  : 20
+Edges examined : 1010
+Successful relaxations : 146
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.015447 ms
+GPU total   : 44.6544 ms
+H2D/setup   : 43.3197 ms
+GPU section : 1.258 ms
+D2H         : 0.014715 ms
+Iterations  : 10
+Edges examined : 1432
+Successful relaxations : 141
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.018727 ms
+GPU total   : 42.3847 ms
+H2D/setup   : 41.3031 ms
+GPU section : 1.0056 ms
+D2H         : 0.014896 ms
+Iterations  : 5
+Edges examined : 2173
+Successful relaxations : 138
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_16.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.015011 ms
+GPU total   : 40.8862 ms
+H2D/setup   : 39.9164 ms
+GPU section : 0.895906 ms
+D2H         : 0.014309 ms
+Iterations  : 3
+Edges examined : 3617
+Successful relaxations : 161
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=17 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013085 ms
+GPU total   : 43.0235 ms
+H2D/setup   : 39.6939 ms
+GPU section : 3.25817 ms
+D2H         : 0.014079 ms
+Iterations  : 47
+Edges examined : 737
+Successful relaxations : 155
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013216 ms
+GPU total   : 40.8016 ms
+H2D/setup   : 38.3054 ms
+GPU section : 2.42215 ms
+D2H         : 0.014098 ms
+Iterations  : 30
+Edges examined : 880
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013665 ms
+GPU total   : 40.3201 ms
+H2D/setup   : 38.7091 ms
+GPU section : 1.53831 ms
+D2H         : 0.014033 ms
+Iterations  : 18
+Edges examined : 1110
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.015696 ms
+GPU total   : 39.9662 ms
+H2D/setup   : 38.6806 ms
+GPU section : 1.2131 ms
+D2H         : 0.014735 ms
+Iterations  : 10
+Edges examined : 1393
+Successful relaxations : 148
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.013194 ms
+GPU total   : 40.1325 ms
+H2D/setup   : 39.1355 ms
+GPU section : 0.923729 ms
+D2H         : 0.014398 ms
+Iterations  : 5
+Edges examined : 1812
+Successful relaxations : 140
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_17.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.014399 ms
+GPU total   : 39.5798 ms
+H2D/setup   : 38.8018 ms
+GPU section : 0.704711 ms
+D2H         : 0.014203 ms
+Iterations  : 3
+Edges examined : 2349
+Successful relaxations : 143
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=18 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.012968 ms
+GPU total   : 44.3248 ms
+H2D/setup   : 40.7568 ms
+GPU section : 3.49482 ms
+D2H         : 0.014406 ms
+Iterations  : 49
+Edges examined : 629
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.013475 ms
+GPU total   : 40.2333 ms
+H2D/setup   : 38.3354 ms
+GPU section : 1.82606 ms
+D2H         : 0.014393 ms
+Iterations  : 28
+Edges examined : 714
+Successful relaxations : 148
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.012971 ms
+GPU total   : 39.8998 ms
+H2D/setup   : 38.2366 ms
+GPU section : 1.593 ms
+D2H         : 0.014123 ms
+Iterations  : 17
+Edges examined : 1038
+Successful relaxations : 151
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.01341 ms
+GPU total   : 39.8929 ms
+H2D/setup   : 38.7637 ms
+GPU section : 1.05522 ms
+D2H         : 0.014286 ms
+Iterations  : 10
+Edges examined : 1252
+Successful relaxations : 154
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.012621 ms
+GPU total   : 39.51 ms
+H2D/setup   : 38.5943 ms
+GPU section : 0.846395 ms
+D2H         : 0.014101 ms
+Iterations  : 5
+Edges examined : 1759
+Successful relaxations : 150
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_18.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.013176 ms
+GPU total   : 39.8358 ms
+H2D/setup   : 39.0609 ms
+GPU section : 0.703373 ms
+D2H         : 0.014136 ms
+Iterations  : 3
+Edges examined : 2573
+Successful relaxations : 166
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=19 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.013226 ms
+GPU total   : 42.1901 ms
+H2D/setup   : 38.738 ms
+GPU section : 3.37914 ms
+D2H         : 0.014105 ms
+Iterations  : 45
+Edges examined : 674
+Successful relaxations : 142
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.01277 ms
+GPU total   : 43.3309 ms
+H2D/setup   : 40.8302 ms
+GPU section : 2.42942 ms
+D2H         : 0.013937 ms
+Iterations  : 31
+Edges examined : 846
+Successful relaxations : 142
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.013622 ms
+GPU total   : 42.9186 ms
+H2D/setup   : 41.312 ms
+GPU section : 1.53374 ms
+D2H         : 0.014295 ms
+Iterations  : 20
+Edges examined : 1058
+Successful relaxations : 141
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.013199 ms
+GPU total   : 43.1881 ms
+H2D/setup   : 41.7757 ms
+GPU section : 1.34024 ms
+D2H         : 0.01435 ms
+Iterations  : 12
+Edges examined : 1389
+Successful relaxations : 141
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.019363 ms
+GPU total   : 44.1052 ms
+H2D/setup   : 43.0546 ms
+GPU section : 0.979913 ms
+D2H         : 0.014158 ms
+Iterations  : 6
+Edges examined : 1673
+Successful relaxations : 135
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_19.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.017017 ms
+GPU total   : 44.6303 ms
+H2D/setup   : 43.8552 ms
+GPU section : 0.702448 ms
+D2H         : 0.014517 ms
+Iterations  : 3
+Edges examined : 2270
+Successful relaxations : 155
+Mismatches  : 0
+Correctness : PASS
+================================
+Generated seed=20 V=100 E=600
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 1
+CPU Dijkstra: 0.016651 ms
+GPU total   : 42.6326 ms
+H2D/setup   : 39.5874 ms
+GPU section : 2.97207 ms
+D2H         : 0.014438 ms
+Iterations  : 43
+Edges examined : 692
+Successful relaxations : 152
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 2
+CPU Dijkstra: 0.017786 ms
+GPU total   : 43.0165 ms
+H2D/setup   : 40.9647 ms
+GPU section : 1.97785 ms
+D2H         : 0.014569 ms
+Iterations  : 27
+Edges examined : 801
+Successful relaxations : 153
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 4
+CPU Dijkstra: 0.014267 ms
+GPU total   : 39.9956 ms
+H2D/setup   : 38.5121 ms
+GPU section : 1.41253 ms
+D2H         : 0.014144 ms
+Iterations  : 16
+Edges examined : 1050
+Successful relaxations : 155
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 8
+CPU Dijkstra: 0.014259 ms
+GPU total   : 40.9607 ms
+H2D/setup   : 39.8099 ms
+GPU section : 1.07928 ms
+D2H         : 0.014198 ms
+Iterations  : 9
+Edges examined : 1415
+Successful relaxations : 149
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 16
+CPU Dijkstra: 0.016802 ms
+GPU total   : 39.4337 ms
+H2D/setup   : 38.5914 ms
+GPU section : 0.769366 ms
+D2H         : 0.014031 ms
+Iterations  : 5
+Edges examined : 1756
+Successful relaxations : 145
+Mismatches  : 0
+Correctness : PASS
+================================
+Running CPU Dijkstra...
+Running GPU Delta-Stepping...
+
+================================
+GPU DELTA-STEPPING
+================================
+Graph       : data/fuzz/random_20.gr
+Vertices    : 100
+Edges       : 600
+Source      : 1
+Delta       : 32
+CPU Dijkstra: 0.013737 ms
+GPU total   : 39.0276 ms
+H2D/setup   : 38.3089 ms
+GPU section : 0.646194 ms
+D2H         : 0.014471 ms
+Iterations  : 3
+Edges examined : 2029
+Successful relaxations : 142
+Mismatches  : 0
+Correctness : PASS
+================================

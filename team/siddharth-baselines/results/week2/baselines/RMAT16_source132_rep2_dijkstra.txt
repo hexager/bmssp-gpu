@@ -1,0 +1,11 @@
+================================
+CPU DIJKSTRA
+================================
+Graph      : data/rmat16.gr
+Vertices   : 65536
+Edges      : 524288
+Source     : 132
+Runtime    : 10.542 ms
+Edges examined : 514223
+Successful relaxations : 66127
+================================

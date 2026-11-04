@@ -1,0 +1,19 @@
+Running Dijkstra reference...
+Running CPU Delta-Stepping...
+
+================================
+DELTA-STEPPING CHECK
+================================
+Graph       : data/grid500.gr
+Vertices    : 250000
+Edges       : 998000
+Source      : 1501
+Delta       : 16
+Dijkstra    : 31.1972 ms
+Delta CPU   : 30.6305 ms
+Buckets     : 1453
+Edges examined : 1004444
+Successful relaxations : 325064
+Mismatches  : 0
+Correctness : PASS
+================================

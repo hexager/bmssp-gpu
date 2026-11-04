@@ -1,0 +1,19 @@
+Running Dijkstra reference...
+Running CPU Delta-Stepping...
+
+================================
+DELTA-STEPPING CHECK
+================================
+Graph       : data/rmat16.gr
+Vertices    : 65536
+Edges       : 524288
+Source      : 1
+Delta       : 16
+Dijkstra    : 22.126 ms
+Delta CPU   : 39.2255 ms
+Buckets     : 13
+Edges examined : 826313
+Successful relaxations : 56938
+Mismatches  : 0
+Correctness : PASS
+================================

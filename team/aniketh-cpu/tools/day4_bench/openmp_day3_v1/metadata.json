@@ -1,0 +1,190 @@
+{
+ "argv": [
+  "week2_research_tools/bench_openmp_matrix_verified.py",
+  "--config-file",
+  "week2_research_tools/configs_day3_verified.json",
+  "--sources-csv",
+  "tools/day4_bench/source_sample_v1/selected_sources.csv",
+  "--per-graph",
+  "3",
+  "--graph-dir",
+  "tools/day4_bench",
+  "--graph-dir",
+  "/home/user/bmssp/tests/graphs",
+  "--graphs",
+  "USA-road-t.NY.gr",
+  "r18.gr",
+  "r20.gr",
+  "--repeats",
+  "7",
+  "--require-ac",
+  "--cooldown-sec",
+  "3",
+  "--timeout",
+  "600",
+  "--out",
+  "tools/day4_bench/openmp_day3_v1"
+ ],
+ "started_utc": "2026-10-21T14:17:12.047296+00:00",
+ "host": "aniketh-09",
+ "python": "3.12.3",
+ "governor": "schedutil",
+ "config_file_sha256": "7bb43d444ad152e3ee916d2e6fa861477eb233e2f0a62a4f315461645e101e4e",
+ "configs": [
+  {
+   "name": "builtin",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/tools/sp_run_instr",
+    "bmssp",
+    "{graph}",
+    "{source}",
+    "1"
+   ],
+   "env": {
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  },
+  {
+   "name": "fallback",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/week2_research_tools/fp_openmp_v3",
+    "{graph}",
+    "{source}"
+   ],
+   "env": {
+    "FP_MODE": "fallback",
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  },
+  {
+   "name": "adaptive2048",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/week2_research_tools/fp_openmp_v3",
+    "{graph}",
+    "{source}"
+   ],
+   "env": {
+    "FP_MODE": "adaptive",
+    "FP_OMP_MIN_EDGES": "2048",
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  },
+  {
+   "name": "adaptive8192",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/week2_research_tools/fp_openmp_v3",
+    "{graph}",
+    "{source}"
+   ],
+   "env": {
+    "FP_MODE": "adaptive",
+    "FP_OMP_MIN_EDGES": "8192",
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  },
+  {
+   "name": "omp4",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/week2_research_tools/fp_openmp_v3",
+    "{graph}",
+    "{source}"
+   ],
+   "env": {
+    "FP_MODE": "omp",
+    "FP_OMP_MIN_EDGES": "2048",
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  },
+  {
+   "name": "omp4_pinned",
+   "cmd": [
+    "taskset",
+    "-c",
+    "0,2,4,6",
+    "/home/user/BMSSP_Project/week2_research_tools/fp_openmp_v3",
+    "{graph}",
+    "{source}"
+   ],
+   "env": {
+    "FP_MODE": "omp",
+    "FP_OMP_MIN_EDGES": "2048",
+    "OMP_NUM_THREADS": "4",
+    "OMP_PLACES": "cores",
+    "OMP_PROC_BIND": "close",
+    "OMP_WAIT_POLICY": "passive",
+    "OMP_DYNAMIC": "FALSE"
+   }
+  }
+ ],
+ "binary_sha256": {
+  "builtin": "34e52c7c4009b8d257e0e5547d8d4444a7864aeabc437aeb9f07e2a400f5b4d4",
+  "fallback": "0fb4f3bb62262a3ce797dcf0c9a68a61e52b22cebe20a028b040adab1b0d33e2",
+  "adaptive2048": "0fb4f3bb62262a3ce797dcf0c9a68a61e52b22cebe20a028b040adab1b0d33e2",
+  "adaptive8192": "0fb4f3bb62262a3ce797dcf0c9a68a61e52b22cebe20a028b040adab1b0d33e2",
+  "omp4": "0fb4f3bb62262a3ce797dcf0c9a68a61e52b22cebe20a028b040adab1b0d33e2",
+  "omp4_pinned": "0fb4f3bb62262a3ce797dcf0c9a68a61e52b22cebe20a028b040adab1b0d33e2"
+ },
+ "plan": [
+  [
+   "USA-road-t.NY.gr",
+   241025
+  ],
+  [
+   "USA-road-t.NY.gr",
+   164482
+  ],
+  [
+   "USA-road-t.NY.gr",
+   111478
+  ],
+  [
+   "r18.gr",
+   147059
+  ],
+  [
+   "r18.gr",
+   15904
+  ],
+  [
+   "r18.gr",
+   229561
+  ],
+  [
+   "r20.gr",
+   421302
+  ],
+  [
+   "r20.gr",
+   690940
+  ],
+  [
+   "r20.gr",
+   133736
+  ]
+ ],
+ "repeats": 7,
+ "git_head": "503232b02c74948c61bdbe084179397bb1dc67f7",
+ "finished_utc": "2026-10-21T14:41:40.553943+00:00",
+ "completed_runs": 310,
+ "expected_runs": 378
+}

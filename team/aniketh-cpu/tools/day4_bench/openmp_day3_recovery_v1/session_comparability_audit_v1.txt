@@ -1,0 +1,23 @@
+BMSSP Week 2 - Session Comparability Audit
+Original session: 310 records
+Recovery session: 68 records
+Coverage: 378 unique experiment keys
+Distance-hash disagreement groups: 0
+
+Baseline controls:
+source=690940 before=2485.010ms after=1968.090ms drift=-20.80%
+source=133736 before=3169.890ms after=2176.940ms drift=-31.32%
+
+Original vs recovery baselines:
+source=690940 original=2152.970ms recovery=2239.325ms difference=+4.01%
+source=133736 original baseline unavailable; cross-session comparison not possible
+
+Methodological verdict:
+The 378-run coverage is complete across two sessions.
+Distance hashes agree within all graph-source-repeat groups.
+Recovery baseline controls show substantial timing drift.
+The sessions are NOT established as statistically equivalent.
+Do not describe this as one uninterrupted stable benchmark.
+Retain original and recovery provenance separately.
+Use within-session comparisons where complete.
+Do not claim an overall OpenMP speedup from this audit.

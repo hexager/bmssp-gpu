@@ -1,0 +1,9 @@
+=============================
+CSR GRAPH LOADER TEST
+=============================
+
+Vertices : 250000
+Edges    : 998000
+Avg out-degree : 3.992
+
+CSR validation: PASS

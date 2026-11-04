@@ -1,0 +1,8 @@
+[
+ {"name":"builtin",       "cmd":["tools/sp_run_instr","bmssp","{graph}","{source}","1"], "env":{"OMP_NUM_THREADS":"4"}},
+ {"name":"fallback",      "cmd":["tools/fp_omp3","{graph}","{source}"], "env":{"FP_MODE":"fallback","OMP_NUM_THREADS":"4"}},
+ {"name":"adaptive2048",  "cmd":["tools/fp_omp3","{graph}","{source}"], "env":{"FP_MODE":"adaptive","FP_OMP_MIN_EDGES":"2048","OMP_NUM_THREADS":"4"}},
+ {"name":"adaptive8192",  "cmd":["tools/fp_omp3","{graph}","{source}"], "env":{"FP_MODE":"adaptive","FP_OMP_MIN_EDGES":"8192","OMP_NUM_THREADS":"4"}},
+ {"name":"omp4",          "cmd":["tools/fp_omp3","{graph}","{source}"], "env":{"FP_MODE":"omp","FP_OMP_MIN_EDGES":"2048","OMP_NUM_THREADS":"4"}},
+ {"name":"omp4_pinned",   "cmd":["tools/fp_omp3","{graph}","{source}"], "env":{"FP_MODE":"omp","FP_OMP_MIN_EDGES":"2048","OMP_NUM_THREADS":"4","OMP_PLACES":"cores","OMP_PROC_BIND":"close","OMP_WAIT_POLICY":"passive"}}
+]
